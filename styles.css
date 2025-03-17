@@ -258,3 +258,16 @@ footer a:hover {
     font-size: 0.9rem;
   }
 }
+.product-card .button {
+  display: block;  /* Make buttons full-width */
+  text-align: center;
+  margin: 5px 0; /* Add spacing between buttons */
+}
+
+@media (min-width: 768px) {
+  .product-card .button {
+    display: inline-block; /* Keep buttons side by side on larger screens */
+    width: auto;
+    margin-right: 10px;
+  }
+}
